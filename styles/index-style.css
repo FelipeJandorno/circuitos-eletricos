@@ -1,0 +1,39 @@
+:root{
+    --cor-azul-escuro: #5161A8;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cor-azul-escuro);
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-size: 3em;
+
+    margin: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+header p{
+    font-size: 0.8em;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+nav{
+    background-color: azure;
+}
+
+nav a{
+    padding: 0px 20px;
+
+    text-decoration: none;
+    background-color: beige;
+}
