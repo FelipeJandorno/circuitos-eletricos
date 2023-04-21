@@ -1,11 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 :root{
     --cor-azul-escuro: #5161A8;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
 }
+
+/*CONFIGURAÇÕES DO HEADER ===========================================*/
 
 header{
     background-color: var(--cor-azul-escuro);
@@ -15,25 +21,55 @@ header{
 
 header h1{
     font-size: 3em;
-
-    margin: 0px;
     padding: 20px;
     padding-bottom: 0px;
 }
 
 header p{
     font-size: 0.8em;
-    margin: 0px;
     padding-bottom: 10px;
 }
 
+/*CONFIGURAÇÕES DO NAVEGADOR =======================================*/
+
 nav{
-    background-color: azure;
+    width: 100vw;
+    background-color: rgb(28, 170, 170);
+
+}
+
+nav > div{
+    background-color: #6d7cc2;
+    text-align: center;
+    width: 100vw;
+    min-width: 500px;
 }
 
 nav a{
     padding: 0px 20px;
-
     text-decoration: none;
+}
+
+nav a:hover{
     background-color: beige;
+    border-radius: 2px;
+    transition:1s;
+}
+
+/*CONFIGURAÇÕES DO MEIO DA PÁGINA*/
+
+
+/*CONFIGURAÇÕES DO FOOTER*/
+
+/*CONFIGURAÇÕES GERAIS*/
+
+.conteiner{
+    position: relative;
+}
+
+.content{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
