@@ -55,7 +55,7 @@ nav a:hover{
     transition:1s;
 }
 
-/*CONFIGURAÇÕES DA MAIN*/
+/*CONFIGURAÇÕES DA MAIN =======================================*/
 
 main{
     margin: 0px 100px;
@@ -75,21 +75,57 @@ main a:hover{
     transition: 1s;
 }
 
-/*CONFIGURAÇÕES DAS SECTIONS*/
+/*CONFIGURAÇÕES DAS SECTIONS =======================================*/
 section{
     width: 70vw;
     max-width: 750px;
     padding-bottom: 100px;
 }
 
-/*CONFIGURAÇÕES DO FOOTER*/
+/*CONFIGURAÇÕES DO FORMULÁRIO =======================================*/
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+div#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea{
+    width: 70vw;
+    margin: 10px 0px;
+}
+
+input{
+    margin: 5px 0px;
+}
+
+input#submit-button{
+    width: 100px;
+    display: flex;
+    align-self: center;
+}
+
+/*CONFIGURAÇÕES DO FOOTER =======================================*/
 footer{
     background-color: #5161A8;
+    color: white;
+    text-align: center;
     /*height: 100px;*/
     /*max-width: 100vw;*/
 }
 
-/*CONFIGURAÇÕES GERAIS*/
+footer p{
+    background-color: rgb(61, 60, 60);
+    margin-top:15px;
+    padding: 10px 0px
+}
+
+/*CONFIGURAÇÕES GERAIS =======================================*/
 
 .conteiner{
     position: relative;
